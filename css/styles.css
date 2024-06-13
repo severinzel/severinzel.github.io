@@ -9,20 +9,9 @@ body {
 }
 
 header {
-    display: flex;
-    align-items: center; /* Vertically center the items */
-    /*justify-content: center; /* Horizontally center the items */
     background-color: #387301;
     color: white;
     padding: 0.5em;
-}
-
-header img {
-    width: 100px;
-    height: auto;
-    margin-right: 0.3em;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 a {
