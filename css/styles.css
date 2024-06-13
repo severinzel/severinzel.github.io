@@ -1,0 +1,49 @@
+/* used to reset everything */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    font-family: 'PT Sans', sans-serif, Arial;
+}
+
+header {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    /*justify-content: center; /* Horizontally center the items */
+    background-color: #387301;
+    color: white;
+    padding: 0.5em;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-right: 0.3em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.checklist {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listOfChecklists {
+    padding: 0;
+    padding-left: 1em;
+}
