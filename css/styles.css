@@ -6,12 +6,14 @@
 
 body {
     font-family: 'PT Sans', sans-serif, Arial;
+    margin: 0;
 }
 
 header {
     background-color: #387301;
     color: white;
     padding: 0.5em;
+    width: 100%;
 }
 
 a {
@@ -27,6 +29,15 @@ header h1 {
     margin: 0;
 }
 
+footer {
+    background-color: #387301;
+    color: white;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .checklist {
     list-style-type: none;
     padding: 0;
@@ -35,4 +46,15 @@ header h1 {
 #listOfChecklists {
     padding: 0;
     padding-left: 1em;
+}
+
+#indexLink {
+    background-color: #387301;
+    border: none;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.3em 0.3em;
+    cursor: pointer;
 }
