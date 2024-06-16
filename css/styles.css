@@ -40,8 +40,13 @@ footer {
 .checklist {
     list-style-type: none;
     padding: 0;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.checklist label {
+    font-size: 20px;
 }
 
 #listOfChecklists {
