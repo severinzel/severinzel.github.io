@@ -7,6 +7,9 @@
 body {
     font-family: 'PT Sans', sans-serif, Arial;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% viewport height */
 }
 
 header {
@@ -28,13 +31,14 @@ header h1 {
     margin: 0;
 }
 
+main {
+    flex: 1; /* This allows the main content to take up available space */
+}
+
 footer {
     background-color: #387301;
     color: white;
     padding: 0.5em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .checklist {
